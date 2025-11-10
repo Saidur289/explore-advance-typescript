@@ -41,4 +41,22 @@ const user: {
     lastName: 'riaz',
     isMarried: false
 }            
-// console.log(user1);                                                                                             
+// console.log(user1);     
+// Function     
+function addNorm(num1:number, num2: number): number{
+return num1 + num2
+}                 
+// addNorm("2", 2)         
+const addArrow = (num1: number, num2: number) : number => {
+    return num1 + num2
+}
+// object => function => method 
+const poorUser = {
+    name: "saidur",
+    balance: 0,
+    addMoney(val: number): number{
+        return this.balance + val
+    }
+}                                
+console.log(poorUser.addMoney(1000))                        
+console.log(poorUser.addMoney(1000))                        
